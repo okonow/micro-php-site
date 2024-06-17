@@ -1,0 +1,239 @@
+.header {
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+     
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar .navbar-item {
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar .navbar-item a {
+
+    margin:0;
+    padding: 0px;
+    
+    border: 2px;
+    text-decoration: none;
+
+}
+
+.navbar .navbar-item .item {
+    padding: 30px;
+}
+
+.navbar .navbar-item :hover {
+
+    background-color: blueviolet;
+    
+
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer .footer-item {
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+}
+
+
+footer .footer-item .item {
+    padding: 30px;
+    color: white;
+}
+
+footer .footer-item :hover {
+
+    background-color: blueviolet;
+    
+
+}
+
+.content {
+    height: 76vh;
+    display: flex;
+    flex-flow:row nowrap;
+}
+
+
+#clock {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.sidebar {
+    padding-inline: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 75vh;
+}
+
+.form-container .flex-container .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-container .flex-container .item-user {
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-container .flex-container .item-user .info-string p {
+    margin: 5px;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.input-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.input-container input,
+.input-container button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.input-container button {
+    background-color: #575757;
+    color: white;
+    cursor: pointer;
+}
+
+.input-container :hover {
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+}
+
+.input-container textarea {
+    pointer-events: none;
+}
+
+.adduser {
+    border-radius: 15px;
+    margin: 2vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+}
+
+.adduser .item {
+
+    width: 75%;
+    margin: 3vh;
+}
+
+.adduser .item input {
+    border-radius: 15px;
+    width: 100%;
+    height: 10vh;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.adduser .item select {
+    border-radius: 15px;
+    width: 100%;
+    height: 10vh;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.adduser .item button {
+    border-radius: 15px;
+    width: 100%;
+    height: 10vh;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 2vh;
+    border-radius: 15px;
+}
+
+
+.main-container .main-item .item {
+    width: 50%;
+    height: 100%;
+}
+
+
+.main-container .main-item .item h1 {
+    width: 50%;
+    
+}
+
+
+
